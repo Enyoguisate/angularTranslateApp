@@ -1,0 +1,33 @@
+{
+    "HEADER": {
+        "TITLE": "Este es le titulo principal!",
+        "SUB_TITLE": "Este es el subtitulo principal :("
+    },
+    "CONTENT":{
+        "TITLE": "Titulo del contenido",
+        "SUB_TITLE": "Subtitulo del contenido",
+        "INPUTS": {
+            "NAME": {
+                "LABEL": "Nombre",
+                "INPUT": "Pedro"
+            },
+            "LAST_NAME": {
+                "LABEL": "Apellido",
+                "INPUT": "Pettigrow"
+            }
+        },
+        "BUTTONS":{
+            "OK": "Aceptar",
+            "CANCEL": "Cancelar"
+        }
+    },
+    "FOOTER":{
+        "CONTACT": {
+            "CONTACT": "Contacto",
+            "NAME": "nombre del contacto",
+            "LAST_NAME": "apellido del contacto",
+            "PHONE": "telefono del contacto",
+            "ADDRESS": "avenida siempre viva 742"
+        }
+    }
+}

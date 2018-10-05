@@ -1,0 +1,33 @@
+{
+    "HEADER": {
+        "TITLE": "This is the main title!",
+        "SUB_TITLE": "This is the subtitle :("
+    },
+    "CONTENT":{
+        "TITLE": "Content Title",
+        "SUB_TITLE": "Content sub title",
+        "INPUTS": {
+            "NAME": {
+                "LABEL": "Name",
+                "INPUT": "Peter"
+            },
+            "LAST_NAME": {
+                "LABEL": "Last Name",
+                "INPUT": "Pettigrow"
+            }
+        },
+        "BUTTONS":{
+            "OK": "OK",
+            "CANCEL": "Cancel"
+        }
+    },
+    "FOOTER":{
+        "CONTACT": {
+            "CONTACT": "Contact",
+            "NAME": "contact name",
+            "LAST_NAME": "contact last name",
+            "PHONE": "contact phone number",
+            "ADDRESS": "street address 123"
+        }
+    }
+}

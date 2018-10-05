@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{ 'HEADER.TITLE' | translate }}
+    </ion-title>
+    {{ 'HEADER.SUB_TITLE' | translate }}
+  </ion-navbar>
+  <ion-list>
+    <ion-item>
+      <ion-label>Language</ion-label>
+      <ion-select [(ngModel)]="lang" (ionChange)="switchLanguage()">
+        <ion-option value="en">English</ion-option>
+        <ion-option value="es">Espanish</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+</ion-header>
+
+<ion-content padding>
+  <h1> {{ 'CONTENT.TITLE' | translate }} </h1>
+  <h3> {{ 'CONTENT.SUB_TITLE' | translate }} </h3>
+  <ion-item>
+    <ion-label>{{ 'CONTENT.INPUTS.NAME.LABEL' | translate }}</ion-label>
+    <ion-input placeholder="{{ 'CONTENT.INPUTS.INPUT'.LABEL | translate  }}"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>{{ 'CONTENT.INPUTS.LAST_NAME.LABEL' | translate }}</ion-label>
+    <ion-input placeholder="{{ 'CONTENT.INPUTS.LAST_NAME.LABEL' | translate  }}"></ion-input>
+  </ion-item>
+  <button ion-button>{{ 'CONTENT.BUTTONS.OK' | translate }}</button>
+  <button ion-button>{{ 'CONTENT.BUTTONS.CANCEL' | translate }}</button>
+</ion-content>
+
+<ion-footer>
+  <h3>{{ 'FOOTER.CONTACT.CONTACT' | translate }}</h3>
+  <h4>{{ 'FOOTER.CONTACT.NAME' | translate }}</h4>
+  <h4>{{ 'FOOTER.CONTACT.LAST_NAME' | translate }}</h4>
+  <h4>{{ 'FOOTER.CONTACT.PHONE' | translate }}</h4>
+  <h4>{{ 'FOOTER.CONTACT.ADDRESS' | translate }}</h4>
+</ion-footer>
